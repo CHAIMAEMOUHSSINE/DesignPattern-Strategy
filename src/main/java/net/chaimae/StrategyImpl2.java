@@ -1,4 +1,9 @@
 package net.chaimae;
 
-public class StrategyImpl2 {
+public class StrategyImpl2 implements Strategy {
+
+    @Override
+    public void effectuerOperation() {
+        System.out.println("Operation effectuée par StrategyImpl2");
+    }
 }
