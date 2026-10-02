@@ -1,7 +1,7 @@
 package net.chaimae;
 
 public class Context {
-    private Strategy strategy;
+    private Strategy strategy=new DefaultStrategyImpl();
     public void effectuerOperation(){
         System.out.println("***************");
         strategy.effectuerOperation();
